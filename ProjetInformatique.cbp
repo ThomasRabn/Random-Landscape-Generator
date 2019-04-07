@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ProjetInformatique" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ProjetInformatique" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ProjetInformatique" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="src/Couleur/couleur.cpp" />
+		<Unit filename="src/Couleur/couleur.h" />
+		<Unit filename="src/Dessins/FloteSpaceShip.cpp" />
+		<Unit filename="src/Dessins/FloteSpaceShip.h" />
+		<Unit filename="src/Dessins/arbre.cpp" />
+		<Unit filename="src/Dessins/arbre.h" />
+		<Unit filename="src/Dessins/backGround.cpp" />
+		<Unit filename="src/Dessins/backGround.h" />
+		<Unit filename="src/Dessins/chaineMontagne.cpp" />
+		<Unit filename="src/Dessins/chaineMontagne.h" />
+		<Unit filename="src/Dessins/dessin.h" />
+		<Unit filename="src/Dessins/deuxiemePlan.cpp" />
+		<Unit filename="src/Dessins/deuxiemePlan.h" />
+		<Unit filename="src/Dessins/foret.cpp" />
+		<Unit filename="src/Dessins/foret.h" />
+		<Unit filename="src/Dessins/groupe.cpp" />
+		<Unit filename="src/Dessins/groupe.h" />
+		<Unit filename="src/Dessins/montagne.cpp" />
+		<Unit filename="src/Dessins/montagne.h" />
+		<Unit filename="src/Dessins/paysage.cpp" />
+		<Unit filename="src/Dessins/paysage.h" />
+		<Unit filename="src/Dessins/premierPlan.cpp" />
+		<Unit filename="src/Dessins/premierPlan.h" />
+		<Unit filename="src/Dessins/sapin.cpp" />
+		<Unit filename="src/Dessins/sapin.h" />
+		<Unit filename="src/Dessins/spaceShip.cpp" />
+		<Unit filename="src/Dessins/spaceShip.h" />
+		<Unit filename="src/Dessins/troisiemePlan.cpp" />
+		<Unit filename="src/Dessins/troisiemePlan.h" />
+		<Unit filename="src/Geometrie/coords.cpp" />
+		<Unit filename="src/Geometrie/coords.h" />
+		<Unit filename="src/Primitives/blurredDisque.cpp" />
+		<Unit filename="src/Primitives/blurredDisque.h" />
+		<Unit filename="src/Primitives/cercle.cpp" />
+		<Unit filename="src/Primitives/cercle.h" />
+		<Unit filename="src/Primitives/disque.cpp" />
+		<Unit filename="src/Primitives/disque.h" />
+		<Unit filename="src/Primitives/ellipse.cpp" />
+		<Unit filename="src/Primitives/ellipse.h" />
+		<Unit filename="src/Primitives/ligne.cpp" />
+		<Unit filename="src/Primitives/ligne.h" />
+		<Unit filename="src/Primitives/primitive.cpp" />
+		<Unit filename="src/Primitives/primitive.h" />
+		<Unit filename="src/Primitives/rectangle.cpp" />
+		<Unit filename="src/Primitives/rectangle.h" />
+		<Unit filename="src/Primitives/triangle.cpp" />
+		<Unit filename="src/Primitives/triangle.h" />
+		<Unit filename="src/Svgfile/svgfile.cpp" />
+		<Unit filename="src/Svgfile/svgfile.h" />
+		<Unit filename="src/main.cpp" />
+		<Unit filename="src/util/structureChoix.cpp" />
+		<Unit filename="src/util/structureChoix.h" />
+		<Unit filename="src/util/util.cpp" />
+		<Unit filename="src/util/util.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
