@@ -6,6 +6,6 @@ This project generate a "random" landscape. It is composed of 3 subparts. Those 
 
 ## Authors
 
-Nabil CHEBILI\
-Thomas RABIAN\
+Nabil CHEBILI - nabilchebili@ymail.com\
+Thomas RABIAN - thomas.rabian@protonmail.com\
 Pierre WOJCIECHOWSKI
